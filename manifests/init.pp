@@ -7,3 +7,7 @@ $packages = [
 ensure_packages($packages, {
   ensure => present,
 })
+
+class { 'python':
+  version => 'system',
+}
