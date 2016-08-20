@@ -1,4 +1,5 @@
 $packages = [
+  'silversearcher-ag',
   'htop',
   'vim-gtk',
 ]
